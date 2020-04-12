@@ -28,3 +28,40 @@ body {
     font-size: 1.2em;
     cursor: pointer;
 }
+
+.links {
+    display: flex;
+    list-style: none;
+}
+
+.links li {
+    margin-right: 24px;
+}
+
+.links li a {
+    text-decoration: none;
+    color: #575757;
+    letter-spacing: -0.5px;
+}
+
+.link li a:hover {
+    color: #000;
+}
+
+.backdrop {
+    display: none;
+    animation: 0.4s ease-in-out fadeIn forwards;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    to {
+        background: rgba(0, 0, 0, 0.8);
+    }
+}
