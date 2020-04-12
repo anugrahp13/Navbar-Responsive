@@ -50,7 +50,7 @@ body {
 
 .backdrop {
     display: none;
-    animation: 0.4s ease-in-out fadeIn forwards;
+    animation: 0.4s ease-in-out fadein forwards;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -60,7 +60,7 @@ body {
     cursor: pointer;
 }
 
-@keyframes fadeIn {
+@keyframes fadein {
     to {
         background: rgba(0, 0, 0, 0.8);
     }
