@@ -1,9 +1,9 @@
 # Navbar-Responsive
 Repository Navbar Responsive
 
-Bahasa program yang digunakan :
+the program language used :
 - HTML
 - CSS
 
-Tambahan Items :
+additional data from outside :
 - Fontawesome
