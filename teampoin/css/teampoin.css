@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
+
 body {
     background: #3e3e3e;
     min-height: 100vh;
@@ -10,7 +12,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Tampilan Desktop */
+/* View Desktop */
 .navbar {
     width: 100%;
     background: #fff;
@@ -66,8 +68,9 @@ body {
     }
 }
 
-/* Tampilan Mobile */
-@media (max-width: 675px){
+/* View Mobile */
+@media (max-width: 675px) {
+
     .icon,
     .close-btn {
         display: block;
@@ -113,7 +116,7 @@ body {
         cursor: pointer;
     }
 
-    /* Kelas Terbuka */
+    /* Open Class */
     .open .links {
         right: 0;
     }
