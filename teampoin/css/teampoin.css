@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #3e3e3e;
+    background: #1A1A1A;
     min-height: 100vh;
     font-family: 'Poppins';
     overflow-x: hidden;
@@ -15,13 +15,17 @@ body {
 /* View Desktop */
 .navbar {
     width: 100%;
-    background: #fff;
-    border-bottom: 1px solid #ccc;
+    background: #FFF;
+    border-bottom: 1px solid #CCC;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 30px;
     box-sizing: border-box;
+}
+
+.logo {
+    text-transform: uppercase;
 }
 
 .icon,
@@ -87,7 +91,7 @@ body {
         height: 100%;
         width: 90%;
         right: -90%;
-        background: #fff;
+        background: #FFF;
         flex-direction: column;
         justify-content: center;
         text-align: center;
